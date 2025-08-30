@@ -11,7 +11,7 @@ text-shadow:
 0 0 10px #ffffff, 
 0 0 20px #ffffff,
 0 0 40px #ffffff;
-border: 1px solid rgb(0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 1);
 display: inline-block;
 margin: 20px auto;
 padding-left: 30px;
@@ -32,8 +32,8 @@ font-size: 18px;
 font-family: Encode sans SC;
 text-shadow: 0 0 5px #eaeaeaff, 
 0 0 10px #eaeaeaff, 
-0 0 20px #eaeaeaff,
-0 0 40px #eaeaeaff;}
+0 0 10px #eaeaeaff,
+0 0 10px #eaeaeaff;}
 
 
 .ani {
@@ -54,14 +54,29 @@ text-shadow: 0 0 5px #eaeaeaff,
 text-align: center;
 padding-left: 10px;
 font-size: 18px;
-font-family: Encode sans SC;text-shadow: 0 0 5px #eaeaeaff, 
-0 0 10px #eaeaeaff, 
-0 0 20px #eaeaeaff,
-0 0 40px #eaeaeaff;}
+font-family: Encode sans SC;
+text-shadow: 0 0 5px #eaeaeaff, 
+0 0 5px #eaeaeaff, 
+0 0 5px #eaeaeaff,
+0 0 5px #eaeaeaff;}
 
+.grr {font-family: Encode Sans SC;
+font-size: 28px;
+margin: auto;
+background: linear-gradient(90deg, darkgray,#ffffff, #ffffff,#ffffff, darkgray,#ffffff, #ffffff,#e9e9e9, darkgray,#ffffff, #ffffff,#ffffff, darkgray,#ffffff,#ffffff,#ffffff);
+background-size: 200%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+animation: moveColors 2s linear infinite;}
+@keyframes moveColors {
+  0% { background-position: 0% 50%;}
+100% {background-position: 100% 50%;}}
 
-
-
+.ani{text-shadow: 0 0 5px #eaeaeaff, 
+0 0 12px #eaeaeaff, 
+0 0 14px #eaeaeaff,
+0 0 16px #eaeaeaff;}
 
 
 
