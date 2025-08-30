@@ -77,7 +77,9 @@ text-shadow:3px 3px 8px rgb(0, 0, 0) }
 0 0 14px #eaeaeaff,
 0 0 16px #eaeaeaff;}
 
-
+.grr img {border: 3px black solid;
+display: inline-block;
+border-radius: 600px;}
 
 
 
